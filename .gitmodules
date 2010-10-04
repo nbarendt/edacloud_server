@@ -1,0 +1,3 @@
+[submodule "cli_driver-1.0/priv/edacloud_client"]
+	path = cli_driver-1.0/priv/edacloud_client
+	url = git@github.com:nbarendt/edacloud_client.git

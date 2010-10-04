@@ -1,0 +1,16 @@
+{application, cli_driver,
+ [
+  {description, ""},
+  {vsn, "1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { cli_driver_app, []}},
+  {env,  [
+		{extprog, "env/bin/test_cli"},
+		{maxline, 1024},
+		{prompt, "edacloud> "}
+		]}
+ ]}.
