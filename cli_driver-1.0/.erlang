@@ -1,0 +1,2 @@
+code:add_pathz(filename:absname("./ebin")).
+

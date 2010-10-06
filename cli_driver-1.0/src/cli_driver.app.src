@@ -9,7 +9,7 @@
                  ]},
   {mod, { cli_driver_app, []}},
   {env,  [
-		{extprog, "env/bin/test_cli"},
+		{extprog, "env/bin/test_cli --host localhost --port 8000"},
 		{maxline, 1024},
 		{prompt, "edacloud> "}
 		]}

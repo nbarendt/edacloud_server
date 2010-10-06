@@ -1,2 +1,5 @@
 code:add_pathz(filename:absname("../cli_driver-1.0/ebin")).
+code:add_pathz(filename:absname("./ebin")).
+code:add_pathz(filename:absname("deps/mochiweb/ebin")).
+code:add_pathz(filename:absname("deps/webmachine/ebin")).
 
